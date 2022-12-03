@@ -1,0 +1,78 @@
+.floating-ball {
+  width: 400px;
+  position: relative;
+  border: 2px solid gray;
+  height: 500px;
+  margin: 50px auto;
+  overflow: hidden;
+}
+
+.f-ball {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 150px;
+  bottom: -50px;
+  animation: float linear infinite 20s;
+}
+
+@keyframes float {
+  0% {
+    bottom: -50px;
+    left: 150px;
+    background-color: gray;
+  }
+  10% {
+    bottom: 60px;
+    left: 300px;
+    background-color: blue;
+  }
+  20% {
+    left: 20px;
+    bottom: 100px;
+    background-color: aliceblue;
+  }
+  30% {
+    left: 300px;
+    bottom: 150px;
+    background-color: red;
+  }
+  40% {
+    left: 20px;
+    bottom: 200px;
+    background-color: greenyellow;
+  }
+  50% {
+    left: 300px;
+    bottom: 250px;
+    background-color: green;
+  }
+  60% {
+    left: 20px;
+    bottom: 300px;
+    background-color: goldenrod;
+  }
+  70% {
+    left: 300px;
+    bottom: 350px;
+    background-color: plum;
+  }
+  80% {
+    left: 20px;
+    bottom: 400px;
+    background-color: purple;
+  }
+  90% {
+    left: 300px;
+    bottom: 450px;
+    background-color: peachpuff;
+  }
+  100% {
+    left: 20px;
+    background-color: peru;
+
+    bottom: 500px;
+  }
+}
